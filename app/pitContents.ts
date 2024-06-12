@@ -13,11 +13,11 @@ export const pitContents: pitContentType[] = [
       link: `https://kotonoha-memo.vercel.app/`,
       type: "App",
     },
-    {
-      id: 3,
-      name: "炎のアニメーション作ってみたよ",
-      description: "アイランドNavigation作ってみたよ",
-      link: `/pit/animation-hono`,
-      type: "Demo",
-    },
+    // {
+    //   id: 3,
+    //   name: "炎のアニメーション作ってみたよ",
+    //   description: "アイランドNavigation作ってみたよ",
+    //   link: `/pit/animation-hono`,
+    //   type: "Demo",
+    // },
   ];
