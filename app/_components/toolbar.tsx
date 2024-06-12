@@ -4,7 +4,7 @@ import ToolbarButton from "./toolbarButton";
 
 export default function Toolbar() {
   return (
-    <div className="fixed gap-2 bottom-6 left-1/2 backdrop-blur -translate-x-1/2 flex items-center border shadow-lg rounded-full p-2 bg-black border-zinc-800">
+    <div className="fixed gap-2 bottom-6 left-1/2 backdrop-blur -translate-x-1/2 flex items-center border shadow-lg rounded-full p-2 bg-black/5 border-zinc-800">
       <ShinshiIntroIcon />
       <ToolbarButton href={"/"} icon={<Home />} title={"トップ"} />
       {/* <ToolbarButton

@@ -24,7 +24,7 @@ export default function ToolbarButton({
     <Button
       size={"icon"}
       variant={"ghost"}
-      className={cn("rounded-full bg-black hover:bg-zinc-800", href === pathname && "bg-zinc-900")}
+      className={cn("rounded-full bg-black/5 hover:bg-zinc-800", href === pathname && "bg-zinc-900")}
       asChild
     >
       <Link href={href}>
