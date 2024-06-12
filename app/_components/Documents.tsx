@@ -28,7 +28,7 @@ const Document = ({ id, name, description, link, type,}: pitContentType) => {
 //Documentsコンポーネント
 export default function Documents() {
   return (
-    <div className="grid gap-4 lg:grid-cols-2">
+    <div className="mb-28 grid gap-4 lg:grid-cols-2">
       {pitContents.map((pitContentData: pitContentType) => (
         // eslint-disable-next-line react/jsx-key
         <Document
