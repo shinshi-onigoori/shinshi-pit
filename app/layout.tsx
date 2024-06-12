@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/header";
 import { ThemeProvider } from "next-themes";
-import { Toaster } from "sonner";
+import { Toaster } from "@/components/ui/sonner";
+
 
 export const metadata: Metadata = {
   title: "shinshi-pit",
