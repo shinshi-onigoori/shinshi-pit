@@ -24,7 +24,7 @@ export default function ToolbarButton({
     <Button
       size={"icon"}
       variant={"ghost"}
-      className={cn("rounded-full", href === pathname && "bg-accent")}
+      className={cn("hover:bg-accent/30 rounded-full", href === pathname && "bg-accent")}
       asChild
     >
       <Link href={href}>

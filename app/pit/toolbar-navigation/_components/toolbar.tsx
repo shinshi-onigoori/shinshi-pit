@@ -6,7 +6,7 @@ import UserMenu from "./user-menu";
 
 export default function SampleToolbar() {
   return (
-    <div className="h-full relative">
+    <div className="relative">
       <div className="absolute gap-2 bottom-8 left-1/2 backdrop-blur -translate-x-1/2 flex items-center border shadow-lg rounded-full p-2 bg-muted/30">
         <UserMenu />
         <ToolbarButton
