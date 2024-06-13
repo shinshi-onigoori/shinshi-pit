@@ -11,7 +11,7 @@ export default function Banner() {
         <ShinshiIntroIcon />
         <p className="ml-4">
           私の名前は <span className="font-bold">Shinshi</span><br />
-          このサイトではWeb作ってみたものをゴミ箱のように管理するのを目標としている！！
+          このサイトではWeb開発の勉強がてら作ってみたものをおもちゃ箱のように管理するのを目標としている！！
           <br />
           <br />
           マークアップ、フロントエンド、バックエンドの毎日。来年からフロントエンジニア。Next.jsが一番経験値あるひよっこ。

@@ -1,6 +1,6 @@
 import { ChevronLeft } from "lucide-react";
 import React, { FC } from "react";
-import { ModeToggle } from "../../_components/mode-toggle";
+import { ModeToggle } from "../../../_components/mode-toggle";
 import Link from "next/link";
 
 export default function PitFrame({

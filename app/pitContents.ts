@@ -3,8 +3,8 @@ export const pitContents: pitContentType[] = [
       id: 1,
       name: "toolbar-navigation",
       description: "ninoさんのデモを参考に、アイランドNavigation作ってみた",
-      link: `/pit/toolbar-navigation`,
-      type: "Demo",
+      link: `/component/toolbar-navigation`,
+      type: "component",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export const pitContents: pitContentType[] = [
     //   id: 3,
     //   name: "炎のアニメーション作ってみたよ",
     //   description: "アイランドNavigation作ってみたよ",
-    //   link: `/pit/animation-hono`,
-    //   type: "Demo",
+    //   link: `/animation/animation-hono`,
+    //   type: "animation",
     // },
   ];

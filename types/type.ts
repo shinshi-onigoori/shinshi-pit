@@ -3,6 +3,6 @@ type pitContentType = {
   name: string;
   description: string;
   link: string;
-  type: "Demo" | "App";
+  type: "component" | "animation" | "Demo" | "App" | "art";
   component?: JSX.Element;
 };

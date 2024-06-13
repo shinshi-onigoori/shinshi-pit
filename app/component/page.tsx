@@ -1,14 +1,11 @@
-import Documents from "./_components/Documents";
-import Banner from "./_components/banner";
+import Documents from "../_components/Documents";
+
 
 export default function Home() {
   return (
     <main className="container flex flex-col items-center justify-between">
-      <section className="w-full">
-        <Banner />
-      </section>
       <section className="mt-6">
-        <Documents />
+        <Documents inputType={"component"}/>
       </section>
     </main>
   );

@@ -10,17 +10,17 @@ export default function SampleToolbar() {
       <div className="absolute gap-2 bottom-8 left-1/2 backdrop-blur -translate-x-1/2 flex items-center border shadow-lg rounded-full p-2 bg-muted/30">
         <UserMenu />
         <ToolbarButton
-          href={"/pit/toolbar-navigation"}
+          href={"/component/toolbar-navigation"}
           icon={<Home />}
           title={"トップ"}
         />
         <ToolbarButton
-          href={"/pit/toolbar-navigation/about"}
+          href={"/component/toolbar-navigation/about"}
           icon={<Music />}
           title={"アバウト"}
         />
         <ToolbarButton
-          href={"/pit/toolbar-navigation/setting"}
+          href={"/component/toolbar-navigation/setting"}
           icon={<Settings />}
           title={"セッティング"}
         />
